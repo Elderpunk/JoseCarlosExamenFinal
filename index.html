@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <!-- SEO = Básico -->
-    <title></title>
+    <title>Examen Final</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -27,26 +27,71 @@
     <meta name="theme-color" content="#fafafa" />
   </head>
   <body>
-    <!-- *** ESTRUCTURA SEMÁNTICA *** -->
-    <!-- Header (encabezado de la página, zona superior) -->
-    <header>
+    <div class="contenedor"> 
+    <header class="header">
       <!-- nav (el navegador de toda la web) -->
-      <nav>
-        <a href="" class="link1">link1</a>
-        <a href="" class="link2">link2</a>
-        <a href="" class="link3">link3</a>
-        <a href="" class="link4">link4</a>
+      <nav class="header__navegador">
+        <a href="#" class="navegador__proyectos">Proyectos</a>
+        <a href="#" class="navegador__contactar">Contactar</a>
       </nav>
+      
     </header>
-    <!-- Main (centro de la página, zona central) -->
-    <main>
-      <!-- section y article (posibilidades dentro de main) -->
+    
+    <main class="main">
+      <figure class="main__banner">
+        <img src="img/desktop/banner.png" alt="banner del main">
+      </figure>
+
+      <section class="main__texto">
+        <h1 class="texto__titulo">¿Quienes somos</h1>
+        <p class="texto__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure vitae eos, commodi id totam natus adipisci libero at dignissimos sapiente illum voluptates ea minima exercitationem aliquam rem. Tempore quis nemo voluptas voluptates rem quas quisquam eligendi, earum distinctio necessitatibus rerum labore recusandae reiciendis. Enim dicta esse eaque repellat vel perspiciatis dolor iusto quos quas, voluptatibus necessitatibus tempore eum dolorem natus aliquam, laboriosam incidunt modi quis suscipit? Quisquam quidem, incidunt unde quia voluptas alias quas maiores cumque repellendus ad impedit voluptates nobis corrupti ut laudantium dolorem optio est doloribus, nostrum ratione soluta iure id. Dolore voluptatum deleniti ducimus vel distinctio, error eligendi beatae aspernatur dignissimos reprehenderit laborum fuga veritatis quo temporibus obcaecati? Perferendis, placeat. Illo maiores, fugit voluptatem necessitatibus laborum pariatur impedit, velit nostrum, autem excepturi mollitia nam omnis? Cumque voluptates, consequuntur harum provident totam odio assumenda. Neque dolore dolor repudiandae nam ratione, dolorum ipsum! At reiciendis iste nemo dolorum possimus, consequuntur commodi itaque rerum animi facere facilis neque, expedita soluta natus? Iusto qui, mollitia eligendi ad numquam sequi temporibus! Placeat deleniti impedit optio nemo quo facere commodi. Tempore consequuntur cumque, blanditiis nisi assumenda commodi hic tenetur provident. Facilis hic accusamus corporis fugit? Dolorum, quidem assumenda? Voluptatum esse atque quidem quis?</p>
+      </section>
+      <section class="main__enlace-proyectos">
+        <a href="#" class="enlace-proyectos">Proyectos</a>
+        <figure class="main__zona-proyectos">
+          <img src="img/desktop/Grupo 612.png" alt="calabaza">
+          <img src="img/desktop/Grupo 461.png" alt="calabaza">
+        </figure>
+      </section>
+      
+      <section class="main__texto-imagen">
+        <article class="texto-imagen__parrafo1">
+          <p class="articulo__parrafo1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor reprehenderit possimus maiores vero debitis cum et ratione perspiciatis nemo nisi?</p>
+          <div class="articulo__figura1"></div>
+        </article>
+
+        <article class="texto-imagen__parrafo2">
+          <p class="articulo__parrafo1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor reprehenderit possimus maiores vero debitis cum et ratione perspiciatis nemo nisi?</p>
+          <div class="articulo__figura1"></div>
+        </article>
+
+        <article class="texto-imagen__parrafo3">
+          <p class="articulo__parrafo1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor reprehenderit possimus maiores vero debitis cum et ratione perspiciatis nemo nisi?</p>
+          <div class="articulo__figura1"></div>
+        </article>
+
+        <article class="texto-imagen__parrafo4">
+          <p class="articulo__parrafo1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor reprehenderit possimus maiores vero debitis cum et ratione perspiciatis nemo nisi?</p>
+          <div class="articulo__figura1"></div>
+        </article>
+      </section>
+      
+      
     </main>
     <!-- Footer (final de la página, zona inferior) -->
-    <footer>
-      <h4>&copy;Copyright</h4>
+    <footer class="footer">
+      <form action="" class="footer__formulario-nombre-completo">
+        <input type="text" class="formulario__nombre" placeholder=" *Nombre" P required>
+        <input type="text" class="formulario__apellido" placeholder=" *Apellido" required></form>
+        <form action="" class="footer__formulario">
+        <input type="email" class="formulario__mail" placeholder=" *e-mail" required>
+        <input type="tel" class="formulario__tel" placeholder=" *telefono" required>  
+      </form>
+      <figure class="footer__banner">
+        <img src="img/desktop/footer.png" alt="banner del footer">
+      </figure>
     </footer>
-
+  </div>
     <!-- *** Google Analytics *** -->
     <script src="https://www.google-analytics.com/analytics.js" async></script>
   </body>

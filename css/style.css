@@ -12,6 +12,21 @@
 /* ******************************** */
 
 /* Colores */
+:root{
+    --color-fondo: #BCB69C;
+    --color-subfondo:#DB7F1F;
+    --borde-interior:#502B13;
+    --borde-exterior:#FEC35E;
+    --color-blanco: #ffffff;
+    --color-black:#0000;
+
+}
 
 /* ******************************** */
-
+body{
+    background-color:var(--color-fondo);
+    font-family:Arial, Helvetica, sans-serif;
+}
+ a{
+    text-decoration: none;
+}
